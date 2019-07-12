@@ -17,6 +17,8 @@ class JulivePodUpload < Formula
 #                          "--prefix=#{prefix}"
 #    # system "cmake", ".", *std_cmake_args
 #    system "make", "install" # if this fails, try separate make/make install steps
+    system "make"
+    bin.install "./.build/julive_pod_upload"
   end
 
   test do
