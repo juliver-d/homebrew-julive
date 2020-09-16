@@ -4,8 +4,8 @@
 class JulivePodUpload < Formula
   desc "a simple tool for cocoapods push private repo"
   homepage "http://git.comjia.com:8888/iOS/homebrew-julive"
-  url "https://github.com/juliver-d/homebrew-julive/blob/master/julive_pod_upload/julive_pod_upload-1.0.0/julive_pod_upload-1.0.0.tgz?raw=true"
-  sha256 "226c9ec3d28e3360d72b81966e51e329f0f46a36de525572d8f7aa9d5a6cbe9b"
+  url "https://github.com/juliver-d/homebrew-julive/blob/master/julive_pod_upload/julive_pod_upload-1.0.1/julive_pod_upload-1.0.1.tgz?raw=true"
+  sha256 "a1c47bbd7fa7e16a20d161e47b5f547823b6ba78e93d663e003e071d3ee77098"
   # depends_on "cmake" => :build
 
   def install
